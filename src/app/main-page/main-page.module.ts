@@ -4,6 +4,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { SignupComponent } from './signup/signup.component';
 import { MapDisplayComponent } from './map-display/map-display.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -15,7 +16,14 @@ import { MapDisplayComponent } from './map-display/map-display.component';
     MapDisplayComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule.forChild([
+      { path: 'home', component: MapDisplayComponent }
+    ])
+  ],
+  exports: [
+    NavBarComponent,
+    FooterComponent,
   ]
 })
 export class MainPageModule { }
