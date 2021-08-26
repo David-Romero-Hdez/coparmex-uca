@@ -5,6 +5,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SignupComponent } from './signup/signup.component';
 import { MapDisplayComponent } from './map-display/map-display.component';
 import { RouterModule } from '@angular/router';
+import { AboutComponent } from './about/about.component';
 
 
 
@@ -13,7 +14,8 @@ import { RouterModule } from '@angular/router';
     NavBarComponent,
     FooterComponent,
     SignupComponent,
-    MapDisplayComponent
+    MapDisplayComponent,
+    AboutComponent
   ],
   imports: [
     CommonModule,

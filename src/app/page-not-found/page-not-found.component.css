@@ -1,0 +1,25 @@
+:host {
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+  background-image: url("../../assets/images/404.png");
+}
+.button {
+  font-weight: 300;
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none;
+  border: 1px solid #efefef;
+  padding: 0.5em;
+  border-radius: 3px;
+  left: 50%;
+  transition: all 0.3s linear;
+  margin-right: 55px;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #007aff;
+}
