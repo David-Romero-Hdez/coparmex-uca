@@ -1,0 +1,9 @@
+:host {
+  height: 100%;
+  display: grid;
+  grid: 1fr / repeat(3, 1fr);
+}
+span {
+  display: grid;
+  place-items: center;
+}
